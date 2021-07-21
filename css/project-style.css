@@ -1,0 +1,318 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: #121212;
+  font-family: "Poppins";
+  color: white;
+}
+
+.projects {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.projects-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  border: 2px solid gray;
+}
+.blur- {
+  margin-top: 300px;
+  position: absolute;
+  font-size: 120px;
+  opacity: 0.7;
+  color: rgb(70, 69, 69);
+  font-family: "Krona One";
+}
+.blur-content- {
+  font-size: 60px;
+  margin-top: 310px;
+  position: absolute;
+  z-index: 7;
+  /* margin-bottom: 120px; */
+}
+.projects-sec {
+  margin-top: 300px;
+}
+.straps-container,
+.holo-container,
+.kobra-container,
+.hiker-classes-container,
+.kain-container,
+.portfolio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  padding: 0px 250px 0px 250px;
+}
+.straps-images,
+.holp-images,
+.kobra-images,
+.hiker-classes-images,
+.kain-images,
+.portfolio-images {
+  flex: 0.5;
+}
+.straps-images img,
+.holp-images img,
+.kobra-images img,
+.hiker-classes-images img,
+.kain-images img,
+.portfolio-images img {
+  width: 400px;
+  height: 550px;
+  padding: 30px;
+}
+
+.straps,
+.holp,
+.kobra,
+.hiker-classes,
+.kain,
+.portfolio {
+  flex: 1.5;
+
+  padding: 20px;
+  margin-bottom: 120px;
+}
+
+.type {
+  font-size: 20px;
+  color: rgb(165, 162, 162);
+  padding-bottom: 12px;
+}
+
+.name {
+  font-size: 40px;
+  color: rgb(124, 124, 243);
+  padding-bottom: 12px;
+}
+
+.straps-intro {
+  font-size: 20px;
+  color: rgb(170, 165, 165);
+  padding-bottom: 10px;
+}
+.link {
+  padding-top: 18px;
+}
+.link a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+/* media query start here  */
+/* media query start here  */
+@media screen and (max-width: 1470px) {
+  .straps-container {
+    flex-direction: column;
+    text-align: center;
+    /* border-bottom: 2px solid #5a5252; */
+    border-bottom: 2px solid rgb(240, 240, 140);
+    padding: 0px 60px 0px 60px;
+  }
+  .holo-container {
+    flex-direction: column;
+    text-align: center;
+    border-bottom: 2px solid crimson;
+    padding: 0px 60px 0px 60px;
+  }
+  .kobra-container {
+    flex-direction: column;
+    text-align: center;
+    border-bottom: 2px solid yellow;
+    padding: 0px 60px 0px 60px;
+  }
+  .hiker-classes-container {
+    flex-direction: column;
+    text-align: center;
+    border-bottom: 2px solid blue;
+    padding: 0px 60px 0px 60px;
+  }
+  .kain-container {
+    flex-direction: column;
+    text-align: center;
+    border-bottom: 2px solid #5a5252;
+    padding: 0px 60px 0px 60px;
+  }
+  .portfolio-container {
+    flex-direction: column;
+    text-align: center;
+    border-bottom: 2px solid red;
+    padding: 0px 60px 0px 60px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .type {
+    font-size: 25px;
+  }
+  .name {
+    font-size: 50px;
+  }
+  .straps-container {
+    width: 100%;
+  }
+  .straps-intro {
+    font-size: 23px;
+  }
+
+  .link a {
+    font-size: 23px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .straps-container {
+    padding: 0px 20px 0px 20px;
+  }
+  .holo-container {
+    padding: 0px 20px 0px 20px;
+  }
+  .kobra-container {
+    padding: 0px 20px 0px 20px;
+  }
+  .hiker-classes-container {
+    padding: 0px 20px 0px 20px;
+  }
+  .kain-container {
+    padding: 0px 20px 0px 20px;
+  }
+  .portfolio-container {
+    padding: 0px 20px 0px 20px;
+  }
+  .name {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 805px){
+  .blur- {
+    font-size: 100px;
+    
+  }
+  .blur-content- {
+    font-size: 50px;
+    
+  }
+
+}
+@media screen and (max-width: 700px) {
+
+  .straps-images img,
+  .holp-images img,
+  .kobra-images img,
+  .hiker-classes-images img,
+  .kain-images img,
+  .portfolio-images img {
+    width: 300px;
+    height: 400px;
+    margin-bottom: 10px;
+    
+  }
+
+  .straps,
+  .holp,
+  .kobra,
+  .hiker-classes,
+  .kain,
+  .portfolio {
+    padding: 18px;
+    /* margin-top: 100px; */
+  }
+
+  .type {
+    font-size: 17px;
+  }
+
+  .name {
+    font-size: 32px;
+  }
+
+  .straps-intro {
+    font-size: 17px;
+  }
+
+  .link a {
+    font-size: 17px;
+  }
+  .blur- {
+    font-size: 80px;
+    
+  }
+  .blur-content- {
+    font-size: 45px;
+    
+  }
+}
+@media screen and (max-width: 570px) {
+  .straps-images img,
+  .holp-images img,
+  .kobra-images img,
+  .hiker-classes-images img,
+  .kain-images img,
+  .portfolio-images img {
+    width: 250px;
+    height: 350px;
+    /* padding: 25px; */
+  }
+
+  .straps,
+  .holp,
+  .kobra,
+  .hiker-classes,
+  .kain,
+  .portfolio {
+    padding: 12px;
+  }
+
+  .type {
+    font-size: 13px;
+  }
+
+  .name {
+    font-size: 25px;
+  }
+
+  .straps-intro {
+    font-size: 15px;
+  }
+
+  .link a {
+    font-size: 12px;
+  }
+  .blur- {
+    font-size: 65px;
+    
+  }
+  .blur-content- {
+    font-size: 38px;
+    margin-bottom: 12px;
+    
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .blur- {
+    font-size: 50px;
+    
+  }
+  .blur-content- {
+    font-size: 30px;
+    margin-bottom: 12px;
+    
+  }
+
+}
